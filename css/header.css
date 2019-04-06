@@ -1,0 +1,42 @@
+/*顶层导航栏, 可随着滚动条滚动而移动*/
+.navigate_header ul li{
+    margin: 2px;
+    padding: 2px;
+    border: 1px;
+    background: #DDD;
+    border-style: solid;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    vertical-align: center;
+    float: right;
+    list-style: none;
+}
+
+
+.header{
+    position: relative;
+    width: 100%;
+    left: 10px;
+    clear: both;
+    float: right;
+    border-style: solid;
+    border-style: 1px;
+}
+
+.header .header_banner .threeSpansAndSearchBox{
+    position: relative;
+    left:20%;
+    top:10px;
+
+}
+
+.header .header_banner .img-logo{
+    float: left;
+    border-style: solid;
+    border-style: 1px;
+}
+
+div.threeSpansAndSearchBox{
+    display: inline;
+}

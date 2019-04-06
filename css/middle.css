@@ -1,0 +1,14 @@
+.middle{
+    position: relative;
+    width: 100%;
+    top: 10px;
+    left: 10px;
+    clear: both;
+    float: right;
+    border-style: solid;
+}
+
+.middle .leftMenu ul{
+    border: dotted ;
+    left: 20px;
+}

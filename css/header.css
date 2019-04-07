@@ -1,42 +1,41 @@
 /*顶层导航栏, 可随着滚动条滚动而移动*/
-.navigate_header ul li{
-    margin: 2px;
-    padding: 2px;
-    border: 1px;
-    background: #DDD;
-    border-style: solid;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    vertical-align: center;
+.header{
+    overflow: hidden;
+    clear: both;
+    font-size: 12px;
+    border-style: dotted;
+    background-color: yellow;   
+}
+/*左侧header距离其他div的间隙*/
+.navigate_header_left{
+    float: left;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-style: dotted;
+    border-width: 3px;
+}
+/*右侧header距离其他div的间隙*/
+.navigate_header_right{
+    float: right;/
+    padding-top:5px;
+    padding-bottom:5px;
+    border-style: dotted;
+    border-width: 3px;
+}
+
+/*header左侧的展示元素*/
+.navigate_header_left ul li{
+    float: left;
+    list-style: none;
+    background-color: grey;
+    margin-right: 4px;
+}
+/*header右侧的展示元素*/
+.navigate_header_right ul li{
     float: right;
     list-style: none;
+    background-color: yellow;
+    margin-right: 4px;
 }
 
 
-.header{
-    position: relative;
-    width: 100%;
-    left: 10px;
-    clear: both;
-    float: right;
-    border-style: solid;
-    border-style: 1px;
-}
-
-.header .header_banner .threeSpansAndSearchBox{
-    position: relative;
-    left:20%;
-    top:10px;
-
-}
-
-.header .header_banner .img-logo{
-    float: left;
-    border-style: solid;
-    border-style: 1px;
-}
-
-div.threeSpansAndSearchBox{
-    display: inline;
-}

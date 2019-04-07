@@ -1,11 +1,38 @@
 .middle{
-    position: relative;
-    width: 100%;
-    top: 10px;
-    left: 10px;
-    clear: both;
-    float: right;
-    border-style: solid;
+	clear: both;
+	margin-top:10px;
+    margin-bottom:10px;
+    border-style: dotted;
+}
+
+.middle .upper{
+	clear: both;
+	margin-top:10px;
+    margin-bottom:10px;
+}
+
+.middle .upper .img-logo{
+	float:left;
+}
+
+.middle .upper .searchBox{
+	float:left;
+}
+
+.middle .upper .QRcode{
+	float:right;
+}
+
+.middle .center{
+	clear: both;
+	margin-top:10px;
+    margin-bottom:10px;
+}
+
+.middle .lower{
+	clear: both;
+	margin-top:10px;
+    margin-bottom:10px;
 }
 
 .middle .leftMenu ul{

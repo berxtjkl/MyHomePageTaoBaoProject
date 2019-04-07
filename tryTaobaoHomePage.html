@@ -13,36 +13,55 @@
 	<link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
-<div class="navigate_header">
-	<ul>
-		<li><a href="#">免费注册</a></li>
-		<li><a href="#">请登录</a></li>
-		<li><a href="#">购物车</a></li>
-		<li>欢迎来到XX商城</li>
-	</ul>
-</div>
+<!-- 页面顶部的导航栏 -->
 <div class="header">
-	<div class="header_banner">
-		<div class="img-logo"><img src="./img/image1.jpg" alt="logo"></div>
-		<div class="threeSpansAndSearchBox">
+	<div class="navigate_header_left">
+		<ul>
+			<li><a href="#">中国大陆</a></li>
+			<li><a href="#">imtone</a></li>
+			<li><a href="#">消息</a></li>
+			<li>手机逛淘宝</li>
+		</ul>
+	</div>
+	<div class="navigate_header_right">
+		<ul>
+			<li><a href="#">网站导航</a></li>
+			<li><a href="#">联系客服</a></li>
+			<li><a href="#">牵牛卖家中心</a></li>
+			<li>商品分类</li>
+			<li>收藏夹</li>
+			<li>购物车</li>
+			<li>我的淘宝</li>
+		</ul>
+	</div>
+</div>
+<!-- 页面中部的正文区 -->
+<div class="middle">
+	<!-- 这部分是顶部的内容-包含淘宝logo和搜索，以及右边的二维码 -->
+	<div class="upper">
+		<div class="img-logo">
+			<img src="./img/image1.jpg" alt="logo">
+		</div>
+		<div class="searchBox">
             <div>
                 <span><a href="#">店铺</a></span>
                 <span><a href="#">天猫</a></span>
                 <span><a href="#">宝贝</a></span>
             </div>
-            <div class="searchBox">
+        	<div>
                 <form>
                     <input type="text" placeholder="搜索商品">
                 </form>
-            </div>
+        	</div>
+        </div>
+        <div class="QRcode">
+			<img src="./img/image1.jpg" alt="logo">
         </div>
 	</div>
-</div>
-
-
-	<div class="middle">
-		<div>
-		<ul class="leftMenu">
+	<!-- 这部分是这里是正文区的正文内容 -->
+	<div class="center">
+		<div class="left_menu">
+		<ul>
 			<ul>asasdasdddflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
 			<ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
             <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
@@ -52,31 +71,19 @@
             <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
 			<ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
             <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-            <ul>asdflkjas<span class="glyphicon glyphicon-chevron-right"></span></ul>
-
-
-
         </ul>
-		</div>
-		<div>box</div>
 	</div>
-	<div id="footer">
+	<div class="lower"></div>
+	</div>
+</div>
+		
+<!-- 页面底部 -->
+<div id="footer">
 		Copyright W3School.com.cn
-	</div>
+</div>
+
+
+
 	<script>
 		$('#tabs a').click(function (e) {
 			e.preventDefault();

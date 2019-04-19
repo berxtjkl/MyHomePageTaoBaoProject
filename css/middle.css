@@ -18,9 +18,14 @@
 
 .middle .upper .searchBox{
 	float:left;
-	text-align:center;
+	text-align:left;
 	position:relative;
 	left: 80px;
+}
+
+.middle .upper .searchBox form input{
+	width: 1000px;
+	height: 25px;
 }
 
 .middle .upper .QRcode{

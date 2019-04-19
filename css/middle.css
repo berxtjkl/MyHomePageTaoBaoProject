@@ -9,6 +9,7 @@
 	clear: both;
 	margin-top:10px;
     margin-bottom:10px;
+	/*margin:0 auto;border:1px solid #000;width:300px;height:100px*/
 }
 
 .middle .upper .img-logo{
@@ -17,6 +18,9 @@
 
 .middle .upper .searchBox{
 	float:left;
+	text-align:center;
+	position:relative;
+	left: 80px;
 }
 
 .middle .upper .QRcode{

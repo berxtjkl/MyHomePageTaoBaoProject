@@ -34,9 +34,29 @@
 
 .middle .center{
 	clear: both;
-	margin-top:10px;
-    margin-bottom:10px;
+	display: flex;
 }
+.middle .center .left_menu{
+	height: 100%; width: 120px;
+	margin-left:10px;
+}
+
+.middle .center .middle_menu{
+	background:yellow;
+	flex: 1;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.middle .center .right_menu{
+	height: 100%; width: 120px;
+	margin-right:10px;
+}
+.center #inner_first{
+	text-align: center;
+	background: pink;
+}
+
 
 .middle .lower{
 	clear: both;

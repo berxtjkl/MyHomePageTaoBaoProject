@@ -1,4 +1,5 @@
 ul,ol,li{
     margin:0;/*设置外补白为0*/
     padding:0;/*设置内补白为0*/
+    list-style-type:none;
 }

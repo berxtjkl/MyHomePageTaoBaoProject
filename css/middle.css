@@ -1,3 +1,7 @@
+#small_font{
+	font-size: 14px;
+}
+
 .middle{
 	clear: both;
 	margin-top:10px;
@@ -14,6 +18,12 @@
 
 .middle .upper .img-logo{
 	float:left;
+	margin-left:10px;
+	margin-right:10px;
+}
+.middle .upper .QRcode{
+	margin-left:10px;
+	margin-right:10px;
 }
 
 .middle .upper .searchBox{
@@ -24,7 +34,7 @@
 }
 
 .middle .upper .searchBox form input{
-	width: 1000px;
+	width: 600px;
 	height: 25px;
 }
 
@@ -37,8 +47,12 @@
 	display: flex;
 }
 .middle .center .left_menu{
-	height: 100%; width: 120px;
+	height: 100%; width: 170px;
 	margin-left:10px;
+}
+
+.middle .center .left_menu i{
+	float:right;
 }
 
 .middle .center .middle_menu{
@@ -49,7 +63,7 @@
 }
 
 .middle .center .right_menu{
-	height: 100%; width: 120px;
+	height: 100%; width: 170px;
 	margin-right:10px;
 }
 .center #inner_first{
